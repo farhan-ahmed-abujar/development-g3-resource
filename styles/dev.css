@@ -180,6 +180,18 @@ nav li a{
   .soposors-img-container img{
     width: 165px;
   }
+  .footer-section{
+    width: 100%;
+   height: 100px;
+    background: #FFF4E7;
+    text-align: center;
+    display: grid;
+    align-items: center;
+
+  }
+  .footer{
+    color:  #424242
+  }
   
 
 
@@ -198,7 +210,8 @@ nav li a{
     .soposors-img-container,
     nav,
     .teams-container,
-    .features
+    .features,
+    .footer-section
     {
         flex-direction: column;
     }
@@ -220,7 +233,10 @@ nav li a{
 } 
 /* tablet or medium devices */
  @media screen  and (min-width: 576px) and (max-width: 960px) {
-    nav .teams-container,.soposors-img-container, .features{
+    nav .teams-container,
+    .soposors-img-container,
+     .features,
+     .footer-section{
         flex-direction: column;
     }
 
